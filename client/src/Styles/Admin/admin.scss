@@ -1,0 +1,24 @@
+$font-f: "Tenor Sans", sans-serif;
+
+.admin-container {
+    display: block;
+    height: 600px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 0 3px black;
+    margin-top: 100px;
+    background-color: cornflowerblue;
+    margin-left: 20%;
+    padding: 2%;
+    .tasks-title {
+        display: flex;
+        justify-content: space-around;
+        .logOutButton {
+            margin-top: 3%;
+        }
+    }
+    .task-wrapper {
+        padding: 1%;
+        border-bottom: 1px solid white;
+    }
+}

@@ -1,0 +1,15 @@
+$font-f: "Tenor Sans", sans-serif;
+.app-container {
+    display: block;
+    height: 600px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 0 3px black;
+    margin-top: 100px;
+    background-color: cornflowerblue;
+    margin-right: 400px;
+    margin-left: 25%;
+    .tasks {
+        margin-top: 20%;
+    }
+}

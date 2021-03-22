@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 0 3px black;
+    margin-top: 100px;
+    background-color: cornflowerblue;
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        .regist-link {
+            margin-left: 33%;
+        }
+    }
+}
